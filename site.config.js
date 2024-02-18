@@ -12,20 +12,20 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `blog-of-rez`,
+      href: "https://github.com/rez23/blog-of-rez",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
+    title: "blog of rez",
     description: "welcome to morethan-log!",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://blog-of-rez.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
-  lang: "it-IT", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: ["it-IT", "en-US"], // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
